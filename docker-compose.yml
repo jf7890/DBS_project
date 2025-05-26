@@ -36,7 +36,7 @@ services:
       - elasticsearch
 
   ai-app:
-    image: jf7890/ai-test:v2-update
+    image: jf7890/ai-test:v3
     volumes:
       - ./logs:/data/logs
     depends_on:
