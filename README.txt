@@ -1,3 +1,6 @@
+You can edit password for MySQL server by edit parameter of: 'MYSQL_ROOT_PASSWORD' on docker-compose.yaml file
+if not, 'example' is default password
+
 Create logs file, and grant permission for other user (Logtash/Docker) be able to read log 
 Run command:
 chmod +x permission.sh
